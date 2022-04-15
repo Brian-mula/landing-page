@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <title>nextinvention</title>
+</head>
+<body class="font-Poppins">
+    <!-- header -->
+    <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+            <div class="py-1">NEXTINVENTION</div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-nextinvention-blue uppercase text-xs">
+                <li class="cursor-pointer">Home</li>
+                <li class="cursor-pointer">About</li>
+                <li class="cursor-pointer">Services</li>
+                <li class="cursor-pointer">Contact</li>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="text-2xl fas fa-bars "></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero section -->
+    <section class="relative">
+        <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+            <div class="flex flex-col flex-1 items-center lg:items-start">
+                <h2 class="text-nextinvention-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+                    The Next Invention
+                </h2>
+                <p class="text-nextinvention-grey text-lg text-center lg:text-left mb-6">
+                    A Simple and organised company where you can get all kinds of technology. Test the nextinvention.co.ke to see how you will be impressed by our services and deliverables.
+                </p>
+                <div class="flex justify-center flex-wrap gap-6">
+                    <button type="button" class="btn btn-purple hover:bg-nextinvention-white hover:text-black" >Find us</button>
+                    <button type="button" class="btn btn-white hover:bg-nextinvention-purple hover:text-white" >Hire Developer</button>
+                </div>
+            </div>
+            <!-- images -->
+            <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:full" src="./imgs/hero-bg.png" alt="">
+            </div>
+        </div>
+        <!-- Rounded rectangle  -->
+        <div class="hidden md:block overlflow-hidden bg-nextinvention-purple rounded-l-full absolute h-60 w-2/4 top-32 right-0 lg: -bottom-28 lg: -right-36"></div>
+    </section>
+
+    <!-- features -->
+    <section class="bg-nextinvention-white py-20 mt-20 lg:mt-60">
+        <!-- heading -->
+        <div class="sm:w-3/4 lg:w-5/9 mx-auto">
+            <h1 class="text-3xl text-center text-nextinvention-blue">About</h1>
+            <p class="text-center text-nextinvention-grey mt-4">The Nextinvention is an upcoming tech-guru
+                 that is majorly based on the automation, web developement and mobile app development. We develope fully 
+                 responsive websites and fully functional products.
+            </p>
+        </div>
+        <!-- feature 1 -->
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:full" src="./imgs/illustration-features-tab-1.png" alt="">
+                </div>
+                <!-- content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-nextinvention-blu">Deliverable upon order</h1>
+                    <p class="text-nextinvention-grey my-4 text-center lg:text-left sm:w=3/4 lg:w-full">
+                        Bring us whatever website you want and it will be delivered as per your wish
+                    </p>
+                    <button type="button" class="btn btn-purple hover:bg-nextinvention-white hover:text-black" >More Info</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overlflow-hidden bg-nextinvention-purple rounded-r-full absolute h-60 w-2/4  -bottom-24 -left-36"></div> 
+        </div>
+        <!-- feature #2 -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:full" src="./imgs/illustration-features-tab-2.png" alt="">
+                </div>
+                <!-- content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-nextinvention-blu">Creative ideas</h1>
+                    <p class="text-nextinvention-grey my-4 text-center lg:text-left sm:w=3/4 lg:w-full">
+                        Frequent innovation in different IT fields to solve real world problem
+                    </p>
+                    <button type="button" class="btn btn-purple hover:bg-nextinvention-white hover:text-black" >More Info</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overlflow-hidden bg-nextinvention-purple rounded-l-full absolute h-60 w-2/4  -bottom-24 -right-36"></div> 
+        </div>
+        <!-- feature#3 -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:full" src="./imgs/illustration-features-tab-3.png" alt="">
+                </div>
+                <!-- content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-nextinvention-blu">Sweet Designs</h1>
+                    <p class="text-nextinvention-grey my-4 text-center lg:text-left sm:w=3/4 lg:w-full">
+                       Specialized and experienced knowledge in website designs as well as mobile application designs.Bring up your thought.
+                    </p>
+                    <button type="button" class="btn btn-purple hover:bg-nextinvention-white hover:text-black" >More Info</button>
+                </div>
+            </div>
+            <div class="hidden lg:block overlflow-hidden bg-nextinvention-purple rounded-r-full absolute h-60 w-2/4  -bottom-24 -left-36"></div> 
+        </div>
+
+    </section>
+</body>
+</html>
